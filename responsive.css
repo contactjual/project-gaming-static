@@ -1,0 +1,191 @@
+/* laptop view */
+@media screen and (max-width: 1500px) {
+    .container {
+        max-width: 90%;
+    }
+
+    /* Header Navigation */
+    header .play-like-the img {
+        width: 500px;
+    }
+
+    /* Careers */
+    .careers-third-bgi .contant {
+        width: 95%;
+    }
+
+    .careers-third-bgi .text-area {
+        padding: 20px 0;
+    }
+
+    .careers-third-bgi .img-area img {
+        width: 500px;
+    }
+}
+
+/* tablet view */
+@media screen and (max-width: 1000px) {
+
+    /*Header Navigation */
+    header .navigation .nav-text>ul {
+        flex-direction: column;
+    }
+    header nav {
+        flex-direction: column;
+        margin: 50px 0 100px 0;
+        gap: 15px;
+    }
+    
+
+    /* Play Like The */
+    header .play-like-the {
+        flex-direction: column;
+        gap: 20px;
+        padding: 40px;
+    }
+
+    header .first-bgi {
+        background-image: none;
+    }
+
+    header .play-like-the .text-area {
+        text-align: center;
+    }
+
+    /* We are gamer */
+    main .we-are-gamer {
+        flex-direction: column-reverse;
+    }
+
+    .we-are-gamer .text-area {
+        text-align: center;
+        width: 400px;
+    }
+
+    main .we-are-gamer .img-area {
+        text-align: center;
+    }
+
+    /* Online Games */
+    main .online-games {
+        margin-top: -80px;
+    }
+    main .video-area {
+        display: grid;
+        grid-template-columns: auto auto;
+    }
+
+    /* Play Instantly */
+    main .play-instantly {
+        flex-direction: column;
+    }
+
+    .play-instantly .text-area {
+        text-align: right;
+        max-width: 400px;
+    }
+
+    .play-instantly .text-area {
+        text-align: center;
+    }
+
+    .play-instantly .img-area {
+        text-align: center;
+        margin-top: -150px;
+    }
+
+    /* Careers */
+    .careers-third-bgi .contant {
+        flex-direction: column;
+    }
+    .careers-third-bgi .contant h1,
+    .careers-third-bgi p {
+        text-align: center;
+    }
+
+    /* More Games */
+    main .more-games .first-row,
+    .more-games .second-row {
+        display: none;
+    }
+
+    main .more-games .mobile-view ul {
+        display: grid;
+        grid-template-columns: auto auto;
+        justify-content: center;
+        gap: 20px;
+        margin: 80px 0 100px 0;
+    }
+
+    main .more-games .mobile-view ul li:first-child {
+        grid-column: 1/3;
+        display: flex;
+        justify-content: center;
+    }
+
+    /* Footer  */
+    footer .our-story ul {
+        display: grid;
+        grid-template-columns: auto auto;
+    }
+    footer .icons ul {
+        display: grid;
+        grid-template-columns: auto auto;
+    }
+    footer .terms ul {
+        display: grid;
+        grid-template-columns: auto auto;
+    }
+}
+
+/* Mobile-view */
+@media screen and (max-width: 600px) {
+    button {
+        padding: 10px 15px;
+        font-size: 12px;
+        border-radius: 5px;
+    }
+    
+    /* Play Like The */
+    header .play-like-the img {
+        width: 280px;
+    }
+
+    /* We are gamer */
+    main .we-are-gamer .img-area img {
+        width: 100%;
+    }
+    .we-are-gamer .text-area {
+        width: 300px;
+        margin-bottom: 30px;
+    }
+    
+    /* Online Games */
+    main .video-area {
+        display: grid;
+        grid-template-columns: auto;
+    }
+
+    /* Play Instantly */
+    .play-instantly .img-area .first-img img {
+        width: 200px;
+    }
+    .play-instantly .img-area .second-img img {
+        width: 100px;
+    }
+
+    /* Careers */
+    .careers-third-bgi .text-area {
+        max-width: 288px;
+        text-align: center;
+    }
+    .careers-third-bgi .img-area img {
+        width: 300px;
+    }
+    .careers-third-bgi .text-area .skils {
+        flex-direction: column;
+    }
+    .careers-third-bgi .text-area .skils .right-skils {
+        text-align: center;
+    }
+}

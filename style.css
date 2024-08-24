@@ -1,0 +1,346 @@
+:root {
+    --pinkColor: #F948B2;
+    --youtubeColor: red;
+    --iconColor: #FF42A5;
+    --fbColor: #1877F2;
+    --halkaColor: #4EC5F7;
+    --whiteColor: white;
+}
+*,
+::after,
+::before {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-decoration: none;
+    box-sizing: border-box;
+}
+ul li {
+    font-size: 15px;
+}
+.container {
+    font-family: "Work Sans", sans-serif;
+    font-style: normal;
+    max-width: 70%;
+    margin: 0 auto;
+}
+.contant {
+    font-family: "Work Sans", sans-serif;
+    font-style: normal;
+}
+
+
+/*Header Navigation */
+.common-nav {
+    display: flex;
+    gap: 10px;
+}
+.common-nav .icon-img img {
+    width: 70px;
+}
+.common-nav .gamer h1 {
+    font-size: 35px;
+}
+.common-nav span {
+    color: var(--pinkColor);
+}
+header .navigation .nav-text>ul {
+    display: flex;
+    gap: 30px;
+    align-items: center;
+}
+header .navigation .nav-text ul ul {
+    display: flex;
+    gap: 15px;
+    background-color: rgba(11, 2, 35, 0.10);
+    padding: 7px 10px;
+    border-radius: 5px;
+}
+header nav {
+    display: flex;
+    justify-content: space-between;
+    height: 70px;
+    align-items: center;
+}
+
+/* Play Like The */
+header .play-like-the {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+header .play-like-the .text-area {
+    flex-basis: 50%;
+}
+header .play-like-the img {
+    width: 520px;
+}
+header .play-like-the #first-h {
+    font-size: 38px;
+    font-weight: 600;
+}
+header .play-like-the #second-h {
+    font-size: 65px;
+    font-weight: 800;
+    letter-spacing: 3px;
+    background: linear-gradient(180deg, #F948B2 0%, #8758F1 100%);
+    background-clip: text;
+    color: transparent;
+    margin-bottom: 10px;
+}
+header .play-like-the p {
+    margin-bottom: 12px;
+}
+button {
+    font-weight: 600;
+    padding: 15px 35px;
+    border: none;
+    border-radius: 50px;
+    color: white;
+    font-size: 15px;
+    background-color: var(--pinkColor);
+}
+header .play-like-the button:nth-child(2) {
+    background-color: var(--halkaColor);
+    margin-top: 10px;
+}
+header .first-bgi {
+    background-image: url(img/Group14.png);
+    background-repeat: no-repeat;
+}
+
+/* We are gamer */
+main .second-bg-clr {
+    background: linear-gradient(90deg, rgba(255, 66, 165, 0.03) 0%, rgba(255, 66, 165, 0.03) 100%);;    
+    padding: 80px 0;
+}
+.we-are-gamer .text-area h1 {
+    background: linear-gradient(180deg, #F948B2 0%, #8758F1 100%);
+    background-clip: text;
+    color: transparent;
+}
+.we-are-gamer .text-area .extra-font {
+    font-size: 20px;
+    margin: 25px 0 10px 0;
+}
+main .we-are-gamer .text-area p {
+    line-height: 29px;
+    margin: 20px 0 10px 0;
+}
+main .we-are-gamer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+main .we-are-gamer .img-area img {
+    width: 80%;
+}
+.we-are-gamer .text-area {
+    text-align: right;
+    /* flex-basis: 30%; */
+    width: 400px;
+}
+
+/* Online Games */
+main .online-games .text-area span {
+    background: linear-gradient(180deg, #F948B2 0%, #8758F1 100%);
+    background-clip: text;
+    color: transparent;
+}
+main .online-games .text-area h1 {
+    margin-bottom: 15px;
+}
+main .online-games .text-area {
+    text-align: center;
+    margin: 100px 0 50px 0;
+}
+main .video-area {
+    display: flex;
+    justify-content: space-between;
+    gap: 30px;
+}
+main .video-area h3 {
+    margin-top: 15px;
+}
+main .video-area .overlay {
+    height: 325px;
+    width: 100%;
+    color: white;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+main .video-area .overlay .play-icon {
+    display: none;
+}
+main .video-area .overlay:hover .play-icon {
+    display: block;
+}
+main .video-area .overlay:hover {
+    background-color: rgba(11, 2, 35, 0.70);
+    border: 2px solid var(--pinkColor);
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+
+main .video-area .first-video .thumbnail {
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: 100% 100%;
+    margin-bottom: 10px;
+    border-radius: 10px;
+}
+main .video-area .first-video .first-thumbnail {
+    background-image: url(img/Rectangle\ 4.png);
+}
+main .video-area .first-video .second-thumbnail {
+    background-image: url(img/Rectangle\ 5.png);
+}
+main .video-area .first-video .third-thumbnail {
+    background-image: url(img/Rectangle\ 7.png);
+}
+main .video-area .first-video .fourth-thumbnail {
+    background-image: url(img/Rectangle\ 6.png);
+}
+
+
+/* Play Instantly */
+main .play-instantly {
+    margin-top: 100px;
+    display: flex;
+    gap: 200px;
+    justify-content: right;
+    align-items: center;
+    margin-bottom: 150px;
+}
+.play-instantly .text-area {
+    text-align: right;
+    max-width: 400px;
+}
+.play-instantly .text-area span {
+    color: var(--pinkColor);
+}
+.play-instantly .text-area p {
+    line-height: 30px;
+}
+.play-instantly .img-area .first-img img {
+    width: 430px;
+}
+.play-instantly .img-area {
+    position: relative;
+}
+.play-instantly .img-area .second-img img {
+    width: 240px;
+    border: 1px solid black;
+    position: absolute;
+    top: 50%;
+    right: 65%;
+}
+
+/* Careers */
+main .careers-third-bgi {
+    background-image: url(img/Group14.png);
+    background-repeat: no-repeat;
+    background-color: var(--iconColor);
+}
+.careers-third-bgi .contant {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 85%;
+    margin: 0 0 0 auto;
+}
+.careers-third-bgi .text-area {
+    max-width: 570px;
+    color: white;
+}
+.careers-third-bgi .img-area img {
+    width: 700px;
+}
+.careers-third-bgi .text-area p {
+    margin: 30px 0;
+    line-height: 25px;
+}
+.careers-third-bgi .text-area .skils {
+    display: flex;
+    justify-content: space-between;
+}
+.careers-third-bgi .text-area .skils ul li {
+    margin-bottom: 10px;
+    font-weight: 500;
+}
+.careers-third-bgi .text-area .skils .right-skils {
+    text-align: right;
+}
+.careers-third-bgi .text-area button {
+    background-color: var(--whiteColor);
+    color: var(--pinkColor);
+    margin-top: 40px;
+}
+
+/* More Games */
+main .more-games .mobile-view ul {
+    display: none;
+}
+main .more-games .first-row ul {
+    display: flex;
+    justify-content: space-around;
+    margin: 120px 0 50px 0;
+}
+main .more-games .second-row ul {
+    display: flex;
+    justify-content: space-evenly;
+    margin-bottom: 150px;
+}
+main .more-games li img {
+    width: 45px;
+}
+main .more-games a {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+/* Footer */
+footer {
+    background-color: #0B0223;
+    color: var(--whiteColor);
+    padding: 100px 0 50px 0;
+}
+footer a {
+    color: var(--whiteColor);
+}
+footer i {
+    font-size: 30px;
+}
+footer .common-nav {
+    justify-content: center;
+}
+footer .our-story ul {
+    display: flex;
+    justify-content: center;
+    gap: 35px;
+    margin: 40px;
+}
+footer .icons ul {
+    display: flex;
+    justify-content: center;
+    gap: 35px;
+}
+footer .terms ul {
+    display: flex;
+    justify-content: center;
+    gap: 35px;
+    margin: 40px;
+}
+footer .copy-right{
+    text-align: center;
+}
+
+
+
+
+
+/* https://sohel5g.github.io/Gamer-Zone */
