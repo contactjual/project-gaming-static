@@ -22,6 +22,7 @@ ul li {
     font-family: "Work Sans", sans-serif;
     font-style: normal;
     max-width: 70%;
+    /* max-width: 1600px; */
     margin: 0 auto;
 }
 .contant {
@@ -157,10 +158,13 @@ main .online-games .text-area {
 main .video-area {
     display: flex;
     justify-content: space-between;
-    gap: 30px;
+    gap: 20px;
 }
 main .video-area h3 {
     margin-top: 15px;
+}
+main .video-area p {
+    max-width: 300px;
 }
 main .video-area .overlay {
     height: 325px;
@@ -187,8 +191,11 @@ main .video-area .overlay:hover {
 
 main .video-area .first-video .thumbnail {
     background-repeat: no-repeat;
-    background-position: center center;
-    background-size: 100% 100%;
+    /* background-position: center center; */
+    background-position: center;
+    /* background-size: 100% 100%; */
+    max-width: 300px;
+    background-size: cover; 
     margin-bottom: 10px;
     border-radius: 10px;
 }

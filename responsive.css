@@ -73,6 +73,7 @@
     main .video-area {
         display: grid;
         grid-template-columns: auto auto;
+        justify-content: center;
     }
 
     /* Play Instantly */
